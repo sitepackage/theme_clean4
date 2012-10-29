@@ -1125,6 +1125,7 @@ form .hint_area {
 }
 #product .featured_image {
   float:left;
+  width:242px;
 }
 #product .featured_image a{
 	display:block;
@@ -1134,6 +1135,7 @@ form .hint_area {
 	height: 240px;
 	background: #fff no-repeat center center;
 	border:1px solid #eaeaea;
+  margin:0 0 10px 0;
 	display: block;
 }
 #product .all{
@@ -1181,8 +1183,11 @@ form .hint_area {
 	width: 50px;
 	height: 50px;
 	background: transparent no-repeat center center;
-	margin: 0 10px 10px 0;
+	margin: 0 11px 10px 0;
 	border: 1px solid #eaeaea;
+}
+#product .extra_images .last span {
+	margin: 0 0px 10px 0;  
 }
 #product .buy {
   float: left;
